@@ -1,0 +1,125 @@
+.second-block {
+  display: flex;
+  background-image: url(../images/2_background.jpg);
+  position: relative;
+  background-size: cover;
+  box-shadow: 0px 20px 20px 0px black inset, 0px -20px 20px 0px black inset, ;
+
+  &__left {
+    margin-top: 15%;
+    margin-left: 15%;
+  }
+
+  &__right {
+    margin-top: 5%;
+  }
+
+  &__header {
+    font-size: 2vw;
+    margin-bottom: 1%;
+  }
+
+  &__sub-header {
+    font-size: 1.5vw;
+    margin-bottom: 1%;
+  }
+
+  &__text {
+    font-size: 1vw;
+    font-family: sans-serif;
+    margin-bottom: 5%;
+  }
+
+  &__1 {
+    background-image: url(../images/2_offer-rock-left.png);
+    width: 60%;
+    margin: 0;
+    margin-bottom: 15%;
+    text-align: center;
+    padding: 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotate(-10deg);
+
+
+  }
+
+  &__2 {
+    background-image: url(../images/2_offer-rock-left.png);
+    width: 70%;
+    text-align: center;
+    padding: 5%;
+    margin-bottom: 15%;
+    background-size: cover;
+    transform: rotate(10deg);
+  }
+
+  &__3 {
+    background-image: url(../images/2_offer-rock-left.png);
+    width: 60%;
+    text-align: center;
+    padding: 5%;
+    margin-bottom: 15%;
+    background-size: cover;
+  }
+
+  &__4 {
+    background-image: url(../images/2_offer-rock-left.png);
+    width: 60%;
+    text-align: center;
+    padding: 4%;
+    background-size: cover;
+    margin-bottom: 15%;
+    transform: rotate(-5deg);
+  }
+
+  &__5 {
+    background-image: url(../images/2_offer-rock-right.png);
+    width: 60%;
+    text-align: center;
+    padding: 5%;
+    margin-bottom: 15%;
+    background-size: cover;
+    transform: rotate(-5deg);
+  }
+
+  &__6 {
+    background-image: url(../images/2_offer-rock-right.png);
+    width: 60%;
+    text-align: center;
+    padding: 5%;
+    margin-bottom: 15%;
+    background-size: cover;
+    transform: rotate(3deg);
+  }
+
+  &__7 {
+    background-image: url(../images/2_offer-rock-right.png);
+    width: 60%;
+    text-align: center;
+    padding: 5%;
+    margin-bottom: 15%;
+    background-size: cover;
+    transform: rotate(-5deg);
+  }
+
+  &__8 {
+    background-image: url(../images/2_offer-rock-right.png);
+    width: 60%;
+    text-align: center;
+    padding: 5%;
+    margin-bottom: 15%;
+    background-size: cover;
+    transform: rotate(5deg);
+  }
+
+}
+
+.open {
+  background: none;
+  border: none;
+}
+
+.okko-white {
+  width: 30%;
+}

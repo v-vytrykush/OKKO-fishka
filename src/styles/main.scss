@@ -1,7 +1,49 @@
 @import "utils";
 @import "fonts";
-@import "typography";
 
-body {
-  background: $c-gray;
+@import "./blocks/first-block.scss";
+@import "./blocks/second-block.scss";
+@import "./blocks/third-block.scss";
+@import "./blocks/fourth-block.scss";
+@import "./blocks/fifth-block.scss";
+@import "./blocks/popup.scss";
+
+.html {
+  scroll-behavior: smooth;
+}
+
+.body {
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: 'Rotonda', sans-serif;
+}
+
+.link {
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -ms-transition: all 1s;
+  transition: all 1s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+}
+
+.scroll {
+  overflow-y: hidden;
+}
+
+.active {
+  display: block;
+}
+
+.button {
+  width: 80%;
+}
+
+.item-1 {
+  width: 50%;
 }

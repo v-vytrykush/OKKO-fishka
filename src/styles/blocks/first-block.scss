@@ -1,0 +1,33 @@
+.first-block {
+  background-image: url(../images/1_background.jpg);
+  background-size: cover;
+  box-shadow: 0px -20px 20px 0px black inset;
+
+  &__logo-img {
+    width: 60%;
+  }
+
+  &__logo-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__container {
+    position: relative;
+    padding-bottom: 20%;
+  }
+
+  &__text {
+    width: 40%;
+    text-align: center;
+    height: 25%;
+    top: 50%;
+    left: 30%;
+    font-size: 2vw;
+    color: white;
+    background-image: url(../images/1_text-bg.png);
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+  }
+}
